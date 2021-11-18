@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/topprofilebar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Home"
+            android:textSize="23sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:background="@drawable/shadow"
+            android:elevation="2dp"
+            android:textColor="@color/white"/>
+    </RelativeLayout>
+
+
+    <ListView
+        android:id="@+id/listItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#001F7D"
+        android:dividerHeight="2dp"
+        android:listSelector="#00b3b3"/>
+
+</LinearLayout>

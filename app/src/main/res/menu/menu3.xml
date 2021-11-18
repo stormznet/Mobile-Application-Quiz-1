@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--    Manage photo-->
+    <item android:title="Home"
+        android:id="@+id/home3Menu"
+        android:icon="@drawable/ic_round_home_24"
+        app:showAsAction="never"
+
+        />
+
+    <!--    Manage photo-->
+    <item android:title="Manage Photo"
+        android:id="@+id/manageuser3Menu"
+        android:icon="@drawable/ic_baseline_insert_photo_24"
+        app:showAsAction="never"
+        />
+
+
+    <!--    Logout-->
+    <item android:title="Logout"
+        android:id="@+id/logout3Menu"
+        android:icon="@drawable/logout"
+        app:showAsAction="never
+"
+        />
+</menu>

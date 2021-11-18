@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:padding="15dp"
+    android:orientation="vertical">
+
+    <!--    Name-->
+    <EditText
+        android:id="@+id/nameTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nameTxtHint"
+        android:textColorHint="@color/red"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+        >
+    </EditText>
+
+    <!--    Email-->
+    <EditText
+        android:id="@+id/emailTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/emailTxtHint"
+        android:textColorHint="@color/red"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+        >
+    </EditText>
+
+
+    <!--    Password-->
+    <EditText
+        android:id="@+id/passTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/passTxtHint"
+        android:textColorHint="@color/red"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+        android:inputType="textPassword"
+        >
+    </EditText>
+<!--    //Show Password-->
+    <CheckBox
+        android:id="@+id/showPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/show_password"
+
+
+        />
+
+    <!--    Gender-->
+    <TextView
+        android:id="@+id/genderTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="@string/genderTxtHint" />
+
+
+    <!--    Address-->
+
+    <RadioGroup
+        android:id="@+id/genderRadio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/maleRadio"
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:text="@string/male">
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/femaleRadio"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:text="@string/female">
+
+        </RadioButton>
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/addressTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/addressTxtHint"
+        android:textColorHint="@color/red"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+        >
+    </EditText>
+
+    <!--    Phone Number-->
+    <EditText
+        android:id="@+id/phoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/phoneNumberTxTHint"
+        android:textColorHint="@color/red"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+
+
+        >
+    </EditText>
+
+    <!--    DOB-->
+    <Button
+        android:id="@+id/datePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="@string/select_a_date" />
+
+
+    <!--    Agree-->
+    <CheckBox
+        android:id="@+id/agreeCheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/i_agree_to_terms_and_condition"
+        />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:text="@string/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:background="@drawable/radius"
+        />
+<!--    //Login now-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/have_an_account_already" />
+
+        <TextView
+            android:id="@+id/loginNow"
+            android:paddingStart="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:hint="@string/loginTxt"
+            android:textColorHint="@color/black"
+            tools:ignore="RtlSymmetry" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ChainProject Photos</string>
+    <string name="loginForm">ChainProject Photos</string>
+    <string name="nameTxtHint">Name</string>
+    <string name="emailTxtHint">Email</string>
+    <string name="passTxtHint">Password</string>
+    <string name="phoneNumberTxTHint">Phone Number</string>
+    <string name="genderTxtHint">Gender</string>
+    <string name="addressTxtHint">Address</string>
+    <string name="registerTxt">Register Now</string>
+    <string name="loginTxt">Login Now</string>
+    <string name="btnLogin">LOGIN</string>
+    <string name="btnRegister">REGISTER</string>
+    <string name="female">Female</string>
+    <string name="select_a_date">Select a date</string>
+    <string name="i_agree_to_terms_and_condition">I agree to terms and condition</string>
+    <string name="have_an_account_already">Have an account already?</string>
+    <string name="male">Male</string>
+    <string name="show_password">Show Password</string>
+</resources>
